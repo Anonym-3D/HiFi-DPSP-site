@@ -128,20 +128,26 @@ p {
 .paper-image,
 .result-card img,
 .mini-card img {
+  display: block;
   margin: 0 auto;
+  max-width: 100%;
   border: 1px solid var(--border);
   border-radius: 4px;
   background: #fff;
 }
 
 .teaser img {
-  width: min(920px, 100%);
+  width: 100%;
+  max-width: 920px;
+  height: auto;
 }
 
 .demo-video {
-  width: min(920px, 100%);
+  width: 100%;
+  max-width: 920px;
+  max-inline-size: 100%;
+  height: auto;
   margin: 0 auto 0.75rem;
-  aspect-ratio: 16 / 9;
   object-fit: contain;
 }
 
