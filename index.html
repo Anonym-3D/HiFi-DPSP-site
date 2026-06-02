@@ -18,7 +18,7 @@
           <a class="pill" href="#abstract">Abstract</a>
           <a class="pill" href="#pipeline">Pipeline</a>
           <a class="pill" href="#results">Results</a>
-          <a class="pill" href="#code">Code</a>
+          <a class="pill" href="https://github.com/Anonym-3D/HiFi-DPSP-anonymous" target="_blank" rel="noopener noreferrer">Code</a>
         </div>
       </div>
     </section>
@@ -59,7 +59,7 @@
 
     <section class="section gray" id="results">
       <div class="container">
-        <h2>Selected Results</h2>
+        <h2>Results</h2>
 
         <article class="result-card">
           <h3>6-DoF Dynamic Motion</h3>
@@ -84,17 +84,17 @@
             <p>3-step IBSC achieves lower fitting error with the same number of patterns.</p>
           </article>
           <article class="mini-card">
-            <h3>Local Details</h3>
+            <h3>POS Module Ablation</h3>
             <img src="assets/result-details.png" alt="Local detail comparison for 360-degree reconstruction.">
             <p>POS preserves multi-view consistency and reduces duplicate surface artifacts.</p>
           </article>
           <article class="mini-card">
-            <h3>Industrial Components</h3>
+            <h3>Industrial Components Reconstruction</h3>
             <img src="assets/result-industrial.png" alt="Error suppression on industrial components.">
             <p>HiFi-DPSP suppresses motion-induced depth errors on cast-aluminum components.</p>
           </article>
           <article class="mini-card">
-            <h3>Printed Replicas</h3>
+            <h3>3D Printed Replicas</h3>
             <img src="assets/result-replicas.png" alt="Comparison of 3D-printed replicas.">
             <p>Replicas reconstructed by HiFi-DPSP better preserve local geometric details.</p>
           </article>
@@ -124,10 +124,10 @@
 `-- MainScript_preview.png</code></pre>
         <div class="note-box">
           <p>
-            Optical flow and stereo disparity are external precomputed inputs. Optical flow is estimated by RAFT, and stereo disparity is estimated by RAFT-Stereo. Their implementations are not included in the MATLAB demo.
+            Optical flow and stereo disparity are external precomputed inputs. Optical flow is estimated by RAFT [1], and stereo disparity is estimated by RAFT-Stereo [2]. Their implementations are not included in the MATLAB demo.
           </p>
           <p class="repo-note">
-            https://github.com/Anonym-3D/HiFi-DPSP-anonymous
+            <a href="https://github.com/Anonym-3D/HiFi-DPSP-anonymous" target="_blank" rel="noopener noreferrer">https://github.com/Anonym-3D/HiFi-DPSP-anonymous</a>
           </p>
         </div>
       </div>
