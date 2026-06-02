@@ -123,6 +123,7 @@ p {
   text-align: center;
 }
 
+.demo-video,
 .teaser img,
 .paper-image,
 .result-card img,
@@ -135,6 +136,13 @@ p {
 
 .teaser img {
   width: min(920px, 100%);
+}
+
+.demo-video {
+  width: min(920px, 100%);
+  margin: 0 auto 0.75rem;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
 }
 
 .caption {
